@@ -29,5 +29,6 @@ class MainActivity : BaseActivity() {
 
         tabLayout.setupWithViewPager(mainViewPager)
 
+
     }
 }
