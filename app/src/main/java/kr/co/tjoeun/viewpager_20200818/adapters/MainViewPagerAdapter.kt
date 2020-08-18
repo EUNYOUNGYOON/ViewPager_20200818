@@ -15,7 +15,7 @@ class MainViewPagerAdapter(fm : FragmentManager) : FragmentPagerAdapter(fm) {
             return "이름"
         }
         else if(position == 1){
-            return "폰번"
+            return "핸드폰번호"
         }
         else {
             return "주소"
