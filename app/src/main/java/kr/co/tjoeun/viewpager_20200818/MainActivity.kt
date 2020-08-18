@@ -27,5 +27,7 @@ class MainActivity : BaseActivity() {
         mMainPagerAdapter = MainViewPagerAdapter(supportFragmentManager)
         mainViewPager.adapter = mMainPagerAdapter
 
+        tabLayout.setupWithViewPager(mainViewPager)
+
     }
 }
